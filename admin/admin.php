@@ -8,42 +8,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 
+    <link rel="stylesheet" href="style.css">
+   
+
     <title>Document</title>
 
-    <style>
-    .flex-container {
-     display: flex;
-    ;
-}
-
-    .flex-container > div {
-    
-     margin: 10px;
-    
-}
-
-    .Button{
-        padding: 200px;
-    }
-</style>
+  
 </head>
 <body>
-    <div class="container mt-5">
-    <h1>Halo Admin Bavana Chips</h1>
+   <nav class="navbar-expand d-flex flex-column align-item-start id=sidebar">
 
-<div class="flex-container">
-  <div>
-  <button type="button" class="btn btn-primary">Primary</button>
+    <a href="#" class="navbar-brand text-light mt-5">
+        <div class="display-5 font-weight-bold"> Thanos</div>
+    </a>
+    <ul class="navbar-nav dflex flex column mt-5 w-100">
+        <li class="nav-link text-light pl-4"> Home</li>
 
-  </div>
-  <div>
-  <button type="button" class="btn btn-primary">Primary</button>
-
-  </div>
- 
-</div>
-    </div>
-
+    </ul>
+   </nav>
 
 
 
